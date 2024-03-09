@@ -1,18 +1,21 @@
-# Rock, Paper, Scissors Game
+# Python Calculator App
 
-This is a simple Python implementation of the classic Rock, Paper, Scissors game.
+## Description
+This is a simple command-line calculator application written in Python. It supports basic arithmetic operations, trigonometric functions, logarithms, and exponentials.
 
-## How to Play
+## Usage
+1. Run the `calculator.py` script.
+2. Choose an operation from the menu (1-10).
+3. Follow the prompts to input numbers or angles as required.
+4. View the result displayed on the screen.
 
-1. Run the script in a Python environment.
-2. Follow the prompts to choose your move (Rock, Paper, or Scissors).
-3. The computer will randomly select its move.
-4. The winner will be determined based on the choices:
-   - Rock beats Scissors
-   - Scissors beats Paper
-   - Paper beats Rock
-   - If both players choose the same move, it's a tie.
-5. After each round, you can choose to play again.
+## Installation
+No special installation steps are required. Just ensure you have Python installed on your system.
 
-Have fun playing!
+## Dependencies
+This application uses the `math` module, which is included in the Python standard library.
 
+## Getting Started
+To run the application, execute the following command:
+```bash
+python calculator.py
